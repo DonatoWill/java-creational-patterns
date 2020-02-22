@@ -17,3 +17,18 @@ Examples:
  - Needs to be thread safe
  - Private instance
  - Private constructor
+
+### Builder Pattern
+Handle complex constructors with large number of parameters, can guarantee immutability.
+
+Examples:
+ - StringBuilder
+ - DocumentBuilder
+ - Locale.Builder
+
+#### Design
+ - Flexibility over telescoping constructors
+ - Static inner class
+ - Calls appropriate constructor
+ - Negates the need for exposed setters
+ - Can take advantage of Generics
