@@ -1,5 +1,5 @@
 # java-creational-patterns
-### Project basesd on course: https://www.pluralsight.com/courses/design-patterns-java-creational
+#### Project based on course: https://www.pluralsight.com/courses/design-patterns-java-creational
 ## Java Creational Patterns
 ### Singleton Pattern
 Guarantees only one instance is going to be created.
