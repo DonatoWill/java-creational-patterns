@@ -12,8 +12,8 @@ Examples:
  - Spring Beans
 
 #### Design
-Class is responsible for lifecycle
-Static in nature
-Needs to be thread safe
-Private instance
-Private constructor
+ - Class is responsible for lifecycle
+ - Static in nature
+ - Needs to be thread safe
+ - Private instance
+ - Private constructor
