@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Feb 21 22:22:05 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0170-6a7c-be90-00000ebc99a0 
+on database directory memory:/home/daguiar/study-workplace/java-creational-patterns/codejava/webdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5bc2b487 
+Loaded from file:/home/daguiar/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=12.0.2+10
+user.dir=/home/daguiar/study-workplace/java-creational-patterns
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-76-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
