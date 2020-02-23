@@ -32,3 +32,22 @@ Examples:
  - Calls appropriate constructor
  - Negates the need for exposed setters
  - Can take advantage of Generics
+ 
+### Protoype Pattern
+This pattern is used when the type of object to create is determined by a prototypical instance, wich is cloned to produce a new instance. Oftentimes used to get a unique instance of the same object.
+If an object is expensive to create, but we can get we need by copying the member variables, than the prototype is a great fit.
+
+#### Concepts
+ - Avoids costly creation
+ - Avoids subclassing
+ - Typically doesn't use "new"
+ - Often utilizes an Interface
+ - Usually implemented with a Registry
+
+#### Design
+ - Tipically implements the clone/cloneable method and interface 
+ - Avoids keyword new
+ - Although a copy, each instance unique
+ - Costly construction not handled by client
+ - Different to Singleton you can still utilize parameters for construction
+ - Shallow VS Deep Copy (Shalow just copy the immediate properties)
