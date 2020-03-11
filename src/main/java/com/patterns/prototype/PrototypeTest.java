@@ -17,15 +17,26 @@ public class PrototypeTest {
 		
 		Statement firstStatement = new Statement(sql, parameters, record);
 		
+		System.out.println(firstStatement);
 		System.out.println(firstStatement.getSql());
 		System.out.println(firstStatement.getParameters());
 		System.out.println(firstStatement.getRecord());
 		
-		Statement secondStatement = firstStatement.clone();
+		System.out.println("");
 		
+		Statement secondStatement = firstStatement.clone();
+		secondStatement.setSql("select teste");
+		System.out.println(secondStatement);
 		System.out.println(secondStatement.getSql());
 		System.out.println(secondStatement.getParameters());
 		System.out.println(secondStatement.getRecord());
+		
+		System.out.println("");
+		
+		System.out.println(firstStatement);
+		System.out.println(firstStatement.getSql());
+		System.out.println(firstStatement.getParameters());
+		System.out.println(firstStatement.getRecord());
 		
 	}
 }

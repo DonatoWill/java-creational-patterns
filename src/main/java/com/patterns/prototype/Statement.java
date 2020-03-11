@@ -36,5 +36,8 @@ public class Statement implements Cloneable{
 		return record;
 	}
 	
+	public void setSql(String sql) {
+		this.sql = sql;
+	}
 	
 }

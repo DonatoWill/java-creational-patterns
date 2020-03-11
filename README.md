@@ -35,7 +35,7 @@ Examples:
  
 ### Protoype Pattern
 This pattern is used when the type of object to create is determined by a prototypical instance, wich is cloned to produce a new instance. Oftentimes used to get a unique instance of the same object.
-If an object is expensive to create, but we can get we need by copying the member variables, than the prototype is a great fit.
+If an object is expensive to create, but we need by copying the member variables, than the prototype is a great fit.
 
 #### Concepts
  - Avoids costly creation
@@ -51,3 +51,22 @@ If an object is expensive to create, but we can get we need by copying the membe
  - Costly construction not handled by client
  - Different to Singleton you can still utilize parameters for construction
  - Shallow VS Deep Copy (Shalow just copy the immediate properties)
+ 
+ 
+### Factory Method Pattern
+Is in some ways the opposite of the singleton pattern and it is probably the second most used creational pattern.
+
+#### Concepts
+ - Does't expose instantiation logic (The client knows almost nothing about even the type of the object that is being created)
+ - Defer the instantiation or a creation logic to the subclass
+ - Specified by architecture, implemented by user
+ - Examples:
+  - Calendar
+  - ResourceBundle
+  - NumberFormat
+
+#### Design
+ - Factory is responsible for lifecycle
+ - Common Interface
+ - Concrete Classes
+ - Parameterized create method
